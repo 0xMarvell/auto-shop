@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/0xMarvell/auto-shop/pkg/models"
+	"github.com/0xMarvell/auto-shop/pkg/menu"
 )
 
 // func containsProduct(s []models.Product, p *models.Product) bool {
@@ -17,8 +15,9 @@ import (
 // }
 
 func main() {
-	var autoShop models.Store
-	autoShop.AddProduct()
+
+	menu.Welcome()
+	menu.ShowMenu()
 
 	// camry := &models.Product{
 	// 	Id: 1,
@@ -54,7 +53,5 @@ func main() {
 
 	// autoShop.AddProduct(camry)
 	// autoShop.AddProduct(benz)
-
-	fmt.Println(autoShop.Products)
 
 }

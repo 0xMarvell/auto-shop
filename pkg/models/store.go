@@ -123,10 +123,8 @@ func (s *Store) AddProduct() {
 		s.Products = append(s.Products, *product)
 		fmt.Println("New product added successfully")
 	default:
-		fmt.Println("error: invalid input")
+		fmt.Println("ERROR: invalid input")
 	}
-
-	// s.Products = append(s.Products, *product)
 }
 
 func (s *Store) SellProduct() {
