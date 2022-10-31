@@ -25,9 +25,7 @@ func (s *Store) ListSoldProducts() {
 }
 
 func (s *Store) AddProduct() {
-	utils.NewLine(1)
-	fmt.Println("--------------ADD NEW PRODUCT----------------")
-	utils.NewLine(1)
+	utils.Header("--------------ADD NEW PRODUCT----------------")
 
 	var (
 		product       *Product

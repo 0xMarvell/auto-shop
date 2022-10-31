@@ -17,3 +17,9 @@ func CheckErr(err error) {
 		log.Fatal(err)
 	}
 }
+
+func Header(header string) {
+	NewLine(1)
+	fmt.Println(header)
+	NewLine(1)
+}
