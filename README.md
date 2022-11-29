@@ -28,4 +28,3 @@ This project helps solidify understanding of OOP in Go.
 ### LIST SOLD PRODUCTS AND CALCULATE TOTAL PRICE OF SOLD PRODUCTS
 
 ![list sold products - total price of sold products](https://user-images.githubusercontent.com/76994685/204622231-95e43ba2-bff5-4c8f-8546-c1938f55491f.png)
-
