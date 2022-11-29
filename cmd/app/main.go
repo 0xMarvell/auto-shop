@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/0xMarvell/auto-shop/pkg/models"
 )
 
@@ -29,8 +31,9 @@ func main() {
 	benz.DisplayProduct()
 
 	// check if product is in stock
-	tyreRims.InStock()
-	shockAbsorber.InStock()
+	fmt.Println()
+	fmt.Println(tyreRims.InStock())
+	fmt.Println(shockAbsorber.InStock())
 
 	// sell product
 	autoShop.SellProduct(shockAbsorber, 10)
