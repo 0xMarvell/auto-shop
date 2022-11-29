@@ -1,3 +1,6 @@
-# Auto Shop (Altschool 2nd semester final exam)
+# Auto Shop
 
-work in progress ⚠️
+Inventory tool for automobile product store.
+This project helps solidify understanding of OOP in Go.
+
+## DEMO
